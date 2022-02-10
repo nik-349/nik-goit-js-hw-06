@@ -12,8 +12,9 @@ ref.refButton.addEventListener('click', clickButtonChange);
 
 function clickButtonChange() {
   const color = ref.refBody.style.background = getRandomHexColor()
-  ref.refDivColorText.textContent = `-${color}`
+  ref.refDivColorText.textContent = `${color}`
 }
+
 
 
 function getRandomHexColor(element) {
